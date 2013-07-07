@@ -83,7 +83,6 @@ if (require.main == module) {
 		process.exit(1);
 	    }
 	    else {
-		console.log(data);
 		var checkJson = checkHtmlFile(false, data, program.checks);
 		var outJson = JSON.stringify(checkJson, null, 4);
 		console.log(outJson);
