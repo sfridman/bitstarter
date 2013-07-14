@@ -1,4 +1,4 @@
 bitstarter
 ==========
 
-Initial Hello World
+node_modules: cheerio  commander  express  jshint  restler
